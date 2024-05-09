@@ -6,7 +6,7 @@ body {
     margin: 5px;
 }
 #wrapper {
-    background-color: #B99470;
+    background-color: #272727;
 }
 nav {
     text-align: center;
@@ -24,12 +24,18 @@ nav ul {
 }
 nav li {
     border: 1px solid #000000;
-    background-color: aquamarine;
+    background-color: #747474;
     border-radius: 5px;
     padding: 3px;
 }
 nav a {
     text-decoration: none;
+}
+nav a:link {
+    color: #FF652F;
+}
+nav a:visited {
+    color: #FF652F;
 }
 h1 {
     text-align: center;
@@ -37,18 +43,21 @@ h1 {
     margin: 5px;
 }
 header {
-    background-color: #DEAC80;
+    background-color: #272727;
 }
 header a {
     text-decoration: none;
+    color: #14A76C;
 }
 header a:visited {
-    color: #000000;
+    color: #14A76C;
 }
 main {
-    background-color: #B5C18E;
+    background-color: #272727;
+    color: #747474;
 }
 footer {
+    color: #747474;
     font-size: 0.6em;
     font-style: italic;
     text-align: center;
