@@ -46,6 +46,12 @@ h1 {
     font-size: 64px;
     margin: 5px;
 }
+h2 {
+    text-align: center;
+    font-size: 48px;
+    margin: 5px;
+    color: #FFE400;
+}
 header {
     background-color: #272727;
 }
@@ -65,4 +71,86 @@ footer {
     font-size: 0.6em;
     font-style: italic;
     text-align: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#image {
+    padding-left: 25px;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+table th {
+    color: #FF652F;
+}
+th, td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+dl {
+    padding-right: 25%;
+    padding-left: 25%;
+}
+dt {
+    color: #FFE400;
+}
+dd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3 {
+    text-align: center;
+    color: #FFE400;
+}
+h4 {
+    text-align: center;
+}
+#abouttext {
+    text-align: center;
+}
+form { 
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 30%;
+    margin: auto;
+}
+label {
+    color: #FF652F;
+}
+@media (max-width: 600px) {
+    form { 
+        display: grid; 
+        grid-gap: 1em; gap: 1em; 
+        grid-template-columns: 6em 1fr;
+        margin: 0;
+    }  
+    input[type="submit"] { 
+        grid-column: 2 / 3;
+        width: 9em; 
+    }
+    .box {
+        display: inline-block;
+        margin: 0px;
+    }
+    nav ul {
+        font-size: 1em;
+        gap: 10px
+    }
+    
+}
+@media (max-width: 1224px) {
+    .box {
+        margin: 0px;
+    }
 }
